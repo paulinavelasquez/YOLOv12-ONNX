@@ -35,7 +35,7 @@ Example of running YOLOv12 ONNX inference on an image:
 
 <div align="center">
   <h3>Image Inference Output</h3>
-  <img src="data/output_example.jpg" alt="Image Output" width="500">
+  <img src="dog.jpg" alt="Image Output" width="500">
 </div>
 
 ---
@@ -128,7 +128,7 @@ img = draw_results("test.jpg", results, map_class_names, output_path="test_out.j
 Output example:
 
 <p align="center">
-  <img src="data/test_out.jpg" alt="Detection Output" width="500">
+  <img src="dog_out.jpg" alt="Detection Output" width="500">
 </p>
 
 ---
@@ -140,9 +140,8 @@ Output example:
 ├── export_yolo_to_onnx.py   # Script to export .pt to .onnx
 ├── yolo_onnx_infer.py       # YOLOONNXPredictor class for inference
 ├── ONNX.ipynb               # Jupyter Notebook with structured code and usage
-├── data/
-│   ├── test.jpg
-│   └── test_out.jpg
+├── dog.jpg
+├── dog_out.jpg
 └── README.md
 ```
 
