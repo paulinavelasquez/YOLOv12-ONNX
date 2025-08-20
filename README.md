@@ -122,8 +122,6 @@ To draw detections on the image:
 ```python
 from utils_draw import draw_results
 
-class_names = {0: 'Geometric', 1: 'Textual', 2: 'Mascot'}
-
 img = draw_results("test.jpg", results, map_class_names, output_path="test_out.jpg")
 ```
 
