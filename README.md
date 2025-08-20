@@ -24,7 +24,7 @@ This project includes:
 - An example notebook `ONNX.ipynb` with structured code and usage examples.  
 
 <p align="center">
-  <img src="data/example_output.jpg" width=500>
+  <img src="dog.jpg" width=500>
 </p>
 
 ---
@@ -35,7 +35,7 @@ Example of running YOLOv12 ONNX inference on an image:
 
 <div align="center">
   <h3>Image Inference Output</h3>
-  <img src="dog.jpg" alt="Image Output" width="500">
+  <img src="dog_predict.jpg" alt="Image Output" width="500">
 </div>
 
 ---
